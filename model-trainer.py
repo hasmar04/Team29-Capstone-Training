@@ -5,7 +5,6 @@
 #######################################
 
 from ultralytics import YOLO
-# keep your model
 model = YOLO("yolo26m.pt")
 
 model.train(
